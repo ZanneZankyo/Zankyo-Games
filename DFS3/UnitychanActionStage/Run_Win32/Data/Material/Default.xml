@@ -1,0 +1,7 @@
+<Material name="default">
+	<BlendMode src="SRC_ALPHA" dest = "SRC_ALPHA"/>
+	<Shader name="Unlit"/>
+	<DiffuseTexture image=""/>
+	<NormalTexture image=""/>
+	<SpecTexture image=""/>
+</Material>

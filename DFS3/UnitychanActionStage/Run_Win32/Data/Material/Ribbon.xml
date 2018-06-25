@@ -1,0 +1,7 @@
+<Material name="ribbon">
+	<BlendMode src="ONE" dest = "ONE"/>
+	<Shader name="particle"/>
+	<DiffuseTexture image=""/>
+	<NormalTexture image=""/>
+	<SpecTexture image=""/>
+</Material>

@@ -1,0 +1,58 @@
+<Effect name="ribbonR">
+  <Emitter name="ribbon" type="ribbon">
+    <Location module="box">
+      <Mins>0.0,0.0,0.0</Mins>
+      <Maxs>0.0,0.0,0.0</Maxs>
+    </Location>
+    <!--<Location module="sphere">
+			<Center>0.0,0.0,0.0</Center>
+			<MinRadius>0</MinRadius>
+			<MaxRadius>0.1</MaxRadius>
+		</Location>-->
+    <!--<Velocity module="cone">
+			<Direction>0.0,1.0,0.0</Direction>
+			<MinSpeed>0</MinSpeed>
+			<MaxSpeed>10</MaxSpeed>
+			<Angle>45</Angle>
+		</Velocity>-->
+    <!--<Velocity module="box">
+			<Mins>0.0,0.0,0.0</Mins>
+			<Maxs>1.0,1.0,1.0</Maxs>
+		</Velocity>-->
+    <Velocity module="line">
+      <MaxVelocity>0.0,0.0,0.0</MaxVelocity>
+      <MinVelocity>0.0,0.0,0.0</MinVelocity>
+    </Velocity>
+    <!--<Velocity module="sphere">
+			<Center>0.0,0.0,0.0</Center>
+			<MinRadius>0</MinRadius>
+			<MaxRadius>0</MaxRadius>
+		</Velocity>-->
+    <LifeTime>1</LifeTime>
+    <!-- Particle life time -->
+    <SpawnTime>-1</SpawnTime>
+    <!-- Time before emitter stops spawning particles -->
+    <Burst>0</Burst>
+    <!-- Initial burst spawning -->
+    <Spawn>60</Spawn>
+    <!-- Particles spawned per second -->
+    <ConstantAcceleration>0.0,0.0,0.0</ConstantAcceleration>
+    <ColorByLife>
+      <!--<Start>250,203,3,255</Start>
+      <End>250,203,3,0</End>-->
+      <KeyFrame fraction="0" value="250,203,3,255"/>
+      <KeyFrame fraction="0.5" value="242,53,32,128"/>
+      <KeyFrame fraction="1" value="250,203,3,0"/>
+    </ColorByLife>
+    <SizeByLife>
+      <!--<Start>0.1</Start>
+      <End>0.0</End>-->
+      <KeyFrame fraction="0" value="0"/>
+      <KeyFrame fraction="0.1" value="0.1"/>
+      <KeyFrame fraction="1" value="0"/>
+    </SizeByLife>
+    <Prewarm>false</Prewarm>
+    <Material>Data/Material/Ribbon.xml</Material>
+  </Emitter>
+</Effect>
+  

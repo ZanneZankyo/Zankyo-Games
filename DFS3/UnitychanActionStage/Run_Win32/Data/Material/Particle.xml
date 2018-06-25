@@ -1,0 +1,7 @@
+<Material name="particle">
+	<BlendMode src="ONE" dest = "ONE"/>
+	<Shader name="particle"/>
+	<DiffuseTexture image="Data/images/particle2.png"/>
+	<NormalTexture image=""/>
+	<SpecTexture image=""/>
+</Material>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{108c42a3-ae8d-4968-836e-c21302865eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{e31d0541-cc3f-4c72-b201-a69f886fd7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Particles">
+      <UniqueIdentifier>{1e019e4e-2858-4632-a35e-dadaf6d067bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Material">
+      <UniqueIdentifier>{58c469c1-3120-4671-bebb-87670bb878a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\SpringBone">
+      <UniqueIdentifier>{b8fc08e0-d3f6-4cd0-8bf7-10b3204bf465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UnityChanStage">
+      <UniqueIdentifier>{8f89473b-ae10-43a5-801d-0e72f2057ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities">
+      <UniqueIdentifier>{115d4ee3-c1a9-42f1-9be4-97fb43375a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controller">
+      <UniqueIdentifier>{d983b12a-a34e-4a7e-8b63-d458bbde372e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfig.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringJoint.cpp">
+      <Filter>Game\SpringBone</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitychanDancingStage.cpp">
+      <Filter>Game\UnityChanStage</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitychanActionStage.cpp">
+      <Filter>Game\UnityChanStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Unitychan.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Game\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameConfig.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringJoint.hpp">
+      <Filter>Game\SpringBone</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitychanDancingStage.hpp">
+      <Filter>Game\UnityChanStage</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitychanActionStage.hpp">
+      <Filter>Game\UnityChanStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Unitychan.hpp">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Game\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.hpp">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\XML\particle.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\ribbon.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Material\Default.xml">
+      <Filter>Data\Material</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Material\Particle.xml">
+      <Filter>Data\Material</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Material\Ribbon.xml">
+      <Filter>Data\Material</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\ribbonL.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\ribbonR.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\particleL.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\particleR.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Material\Text.xml">
+      <Filter>Data\Material</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\XML\Explosion.xml">
+      <Filter>Data\Particles</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\EngineConfig.ini">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\GameConfig.ini">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
