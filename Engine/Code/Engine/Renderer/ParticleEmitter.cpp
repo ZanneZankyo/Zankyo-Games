@@ -1,3 +1,9 @@
+/*
+This showcase would present my 3D math skills and memory management ability
+Which is critical for game engine.
+See further explaination: http://wenzheng-huang.com/#individual-unity-chan-stage--particle-system
+*/
+
 #include "ParticleEmitter.hpp"
 #include "Engine\Core\Console.hpp"
 
